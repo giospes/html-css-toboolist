@@ -28,15 +28,105 @@ main{
 }
 
 nav{
-    box-sizing: content-box;
     padding: 1em 0;
 }
 
 
 section{
-    margin-top: 2em;
+    margin-top: .5em;
     padding: 1px;
 }
-p{
-    display:;
+
+button{
+    padding: .6em 1em;
+    margin: 0 .1em;
+    border-radius: 5px;
+    border: 1px solid rgb(71, 173, 241); ;
+    font-size: .8em;
+    font-weight: 700;
 }
+
+.white-txt-color{
+    color: rgb(251, 253, 255);
+}
+
+.blue-bg-color{
+    background-color: rgb(71, 173, 241);
+}
+
+#btn-2{
+    background-color: rgb(251, 253, 255);
+    color: rgb(206, 211, 215);
+    border-color: rgb(206, 211, 215);
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(67, 71, 80);
+    margin-bottom: .5em;
+}
+
+p{
+    color: rgb(76, 80, 89);
+    margin-bottom: 1.5em;
+}
+
+.symbol{
+    border: 1px solid black;
+    border-radius:50%;
+    font-size: .8em;
+    padding: .1em .25em;
+    margin-right: .5em;
+    font-weight: 700;
+}
+
+.tick{
+    color: rgb(31, 204, 161);
+    border-color: rgb(31, 204, 161);
+}
+
+.cross{
+    color: rgb(233, 67, 56);
+    border-color: rgb(233, 67, 56);
+    padding-bottom: 0;
+}
+
+.label{
+    font-size: .7em;
+    font-weight: 700;
+    padding: .5em .8em;
+    border-radius: 15px;
+}
+
+#q1-gls{
+    background-color: rgb(156, 114, 228);
+}
+
+#rcrtng{
+    background-color: rgb(100, 192, 169);
+}
+
+#mbl{
+    background-color: rgb(242, 158, 51) ;
+}
+
+#wbst{
+    background-color: rgb(216, 99, 161);
+}
+
+#sls{
+    background-color: rgb(176, 201, 38);
+}
+
+.arrow-down{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(67, 71, 80);
+    position: relative;
+    top: 12px;
+    margin: 0 .3em 0 .1em;
+}
+
